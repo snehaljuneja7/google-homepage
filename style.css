@@ -1,0 +1,139 @@
+.header{
+    display:flex;
+    justify-content: flex-end;
+    align-items: right;
+    margin-top: 14.5px;
+    margin-right: 0px;
+    font: 13px arial;
+    padding-right: 0px;
+    }
+a{
+    padding-right: 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+button.signin{
+    border-radius: 0;
+    background-color: blue;
+    width: 70px;
+    text-decoration: white;
+    padding: 10px;
+
+}
+button.signin:hover{
+    text-decoration: shadow;
+}
+.inputlogo{
+display: flex;
+justify-content: center;
+flex-flow: column;
+align-items: center;
+margin-top: 250px;
+margin-left: auto;
+
+}
+.inputlogo input
+{
+    display: block;
+    width: 450px;
+
+border-radius: 12px;
+
+border-block-color:
+#eee7e7;
+height: 27px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.buttons button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 10px 15px; 
+    font:14px arial,sans-serif; 
+    /* font-weight: bold; */
+    color: #757575;
+    cursor: default;
+}
+.languages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+p{
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.footers{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    color: gray;
+}
+ul.left{
+   
+    color: #5F6368;
+    font:13px arial;
+    display: inline;
+ 
+    justify-content: left;
+    padding: 15px;
+}
+ul.left li{
+    padding-left: 15px;
+    display: inline;
+}
+ul.right{
+    color: #5F6368;
+    font:13px arial;
+    display: inline;
+    margin-right: 0;
+    padding: 15px;
+}
+ul.right li{
+    padding-left: 30px;
+    display: inline;
+}
+
+ul li
+{
+    color:gray;
+}
+a.adv{
+    color: gray;
+}
+a.bus{
+    color: gray;
+}
+a.abt{
+    color:gray;
+}
+a.hsw{
+    color:gray;
+}
+a.pri{
+    color: gray;
+}
+a.terms{
+    color: gray;
+}
